@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+  --forest-green: #4a7c59;
+  --forest-green-dark: #2d5016;
+  --warm-amber: #f4a261;
+  --warm-orange: #e07a5f;
+  --cream: #faf9f6;
+  --beige: #f5f5dc;
+  --charcoal: #2b2d42;
+  --background: #faf9f6;
+  --foreground: #2b2d42;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-forest-green: var(--forest-green);
+  --color-forest-green-dark: var(--forest-green-dark);
+  --color-warm-amber: var(--warm-amber);
+  --color-warm-orange: var(--warm-orange);
+  --color-cream: var(--cream);
+  --color-beige: var(--beige);
+  --color-charcoal: var(--charcoal);
+  --font-heading: var(--font-outfit);
+  --font-body: var(--font-inter);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-outfit), sans-serif;
+}
+
+/* Mobile-specific enhancements */
+@media (max-width: 768px) {
+  /* Larger touch targets for mobile */
+  button, a, input, select, textarea {
+    min-height: 44px;
+  }
+
+  /* Prevent text size adjustment on mobile */
+  body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  /* Smooth scrolling for mobile */
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Better form inputs on mobile */
+  input, select, textarea {
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+}
+
+/* PWA specific styles */
+@media (display-mode: standalone) {
+  body {
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  /* Make inputs selectable */
+  input, textarea, select {
+    -webkit-user-select: text;
+    user-select: text;
+  }
+}
+
+/* Safe area for notched devices */
+body {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}

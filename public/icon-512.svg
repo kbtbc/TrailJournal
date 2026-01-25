@@ -1,0 +1,13 @@
+
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#2d5016"/>
+  <g transform="translate(256, 256)">
+    <!-- Mountain/Trail -->
+    <path d="M-153.6,102.4 L-51.2,-102.4 L51.2,51.2 L153.6,102.4 Z"
+          fill="#4a7c59"/>
+    <path d="M-76.8,102.4 L25.6,-153.6 L128,102.4 Z"
+          fill="#f4a261"/>
+    <!-- Boot/Hiker icon -->
+    <ellipse cx="25.6" cy="51.2" rx="40.96" ry="30.72" fill="#faf9f6"/>
+  </g>
+</svg>
