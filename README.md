@@ -1,6 +1,8 @@
 # Trail Journal - Free Mobile Web App by BigFun Hikes (And AI)
 
-A mobile-first Progressive Web App (PWA) for tracking your thru-hike journey. Log daily miles, journal entries, expenses, and gear all from your mobile device, even offline.  Based on Spreadsheet tool from https://www.lengthytravel.com/try-this-free-long-distance-hike-thru-hike-tracking-tool/
+A mobile-first Progressive Web App (PWA) for tracking your thru-hike journey. Log daily miles, journal entries, expenses, and gear all from your mobile device, even offline.  
+
+Based on Spreadsheet tool from https://www.lengthytravel.com/try-this-free-long-distance-hike-thru-hike-tracking-tool/
 
 > **🚀 Quick Start**: Want to get started right away? See [SETUP.md](SETUP.md) for a simplified setup guide with automated scripts!
 
