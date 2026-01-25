@@ -1,8 +1,8 @@
 # Quick Setup Guide
 
-Follow these steps to get Trail Journal running on your device in minutes!
+Follow these steps to get Trail Journal running locally in minutes!
 
-## Automated Setup (Recommended)
+## Automated Setup For Local Testing -- To Test on a live production environment (free), see the details in the README.md section on hosting on vercel.  
 
 ### Windows Users
 
